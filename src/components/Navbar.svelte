@@ -60,19 +60,7 @@
         ? 'left-0'
         : 'left-full'} md:bg-black/0 md:relative md:h-auto md:w-auto md:top-auto md:flex-row md:px-0 md:left-0 md:gap-8"
     >
-      <li class="">
-        <a
-          href="/"
-          class="md:#link_classes# {location == '' ? 'underline' : ''}">Home</a
-        >
-      </li>
-      <li>
-        <a
-          href="/about"
-          class="md:#link_classes# {location == 'about' ? 'underline' : ''}"
-          >About</a
-        >
-      </li>
+      #links#
     </ul>
   </div>
 </div>
