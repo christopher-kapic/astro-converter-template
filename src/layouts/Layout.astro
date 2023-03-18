@@ -72,9 +72,11 @@ const socialImageURL = new URL(
       )
     }
   </head>
-  <body class="w-screen flex items-center flex-col">
+  <body class="w-screen flex items-center flex-col #html_bg_color#">
     <Navbar client:only />
-    <div class="max-w-screen-2xl w-full px-2 sm:px-4 md:px-12">
+    <div
+      class="max-w-screen-2xl w-full #content_bg_color# mx-2 sm:mx-0 sm:px-4 md:px-12"
+    >
       <slot />
     </div>
   </body>
