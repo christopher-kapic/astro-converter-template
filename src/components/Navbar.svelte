@@ -9,7 +9,7 @@
 </script>
 
 <div
-  class="#nav_bg_color# #nav_color# w-screen h-16 sticky top-0 flex justify-center bg-white"
+  class="#nav_bg_color# #nav_text_color# w-screen h-16 sticky top-0 flex justify-center bg-white"
 >
   <div
     class="items-center flex w-full max-w-screen-2xl px-2 sm:px-4 md:px-12 justify-between"
