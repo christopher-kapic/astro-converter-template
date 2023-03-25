@@ -14,7 +14,9 @@
   <div
     class="items-center flex w-full max-w-screen-2xl px-2 sm:px-4 md:px-12 justify-between"
   >
-    <a href="/"><img alt="#business_name# Logo" src="/logo.png" /></a>
+    <a href="/"
+      ><img alt="#business_name# Logo" class="h-full" src="/logo.png" /></a
+    >
     <button
       class="cursor-pointer md:hidden"
       on:click={() => {
